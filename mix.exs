@@ -86,7 +86,7 @@ defmodule Wobserver.Mixfile do
       {:jason, "~> 1.1"},
       {:credo, "~> 0.8", only: [:dev, :test]},
       {:dialyxir, "~> 0.5", only: [:dev], runtime: false},
-      {:ex_doc, "~> 0.19.1", only: :dev},
+      {:ex_doc, "~> 0.21.2", only: :dev},
       {:excoveralls, "~> 0.6", only: :test},
       {:httpoison, "~> 1.6"},
       {:inch_ex, "~> 2.0", only: [:dev, :test]},
